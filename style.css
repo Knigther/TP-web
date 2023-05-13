@@ -1,0 +1,157 @@
+/* Cabezera inicio */
+header{
+    position: relative;
+    background-image: url(./img/vecteezy_virtual-reality-gaming-metaverse-vector-banner_16265262.jpg);
+    background-size:contain ;
+    padding:auto;
+    margin: 0;
+    width: 100%;
+    height: 150px;
+}
+
+/* Barra de navegacion-Inicio */
+
+div{
+    background-color:none;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    }
+
+   .boton{
+        border-bottom: 2px solid violet;
+   } 
+
+.boton :hover{
+    background-color: rgb(12, 227, 235);
+    margin: auto;
+    padding: 2px;
+    
+    
+}
+.boton a{
+    background-color: rgb(250, 252, 252);
+    color: rgb(8, 8, 8);
+    font-size: 22px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+ 
+}
+/* Barra de navegacion-Fin */
+
+/* Seccion central-Inicio */
+section#contenedor{
+    width: 100%;
+    height: 550px;
+    /*border: 1px black solid;*/
+    margin: 0;
+    position: relative;
+    border-bottom: 2px solid orangered;
+}
+aside{
+    /*background-color: lightgreen;*/
+    width: 350px;
+    height: 548px;
+    /*border: red solid 1px;*/
+}
+#izq{
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 0px;   
+}
+.noticiaizquierda{
+    border-bottom: 2px coral solid;
+}
+
+#der{
+    top:0 ;
+    right: 0;
+    position: absolute;
+    margin-right: 0px;
+    
+    
+}
+
+
+
+/* Seccion central-Fin */
+
+article{
+    position: relative;
+    margin: auto;
+    /*background-color: rgba(233, 233, 35, 0.918);*/
+    width: 650px;
+    height: 545px;
+    
+}
+/* Pie de pagina-Inicion */
+footer{
+    position:absolute ;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    
+}   
+a.redes{
+    
+    margin-right:25px ; 
+}
+
+#derechos{
+    margin: 2px;
+    padding: 1px;
+    /*align: right;*/
+    float: left;
+    size: 2.5px;
+    margin-top:15px;
+}
+/* Pie de pagina-Fin */
+
+/* seccion pagina noticias */
+.noticias{
+    /*background-color: yellow;*/
+    width: 100%;
+    height: 500px;
+}
+/* pagina noticias */  
+#paginanot{
+    position: absolute;
+    width: 450px;
+    height:448px;
+    margin-right: 2px;
+    
+    /*border: 1px crimson solid;*/
+    left: 0;
+
+}
+#paginanoti{
+    position: absolute;
+    width: 450px;
+    height:448px;
+    margin-left: 4px;
+    
+    /*border: 1px crimson solid;*/
+    right: 0;
+    
+}
+
+#paginanoticias{
+    position: absolute;
+    /*background-color: red;*/
+    width: 440px;
+    height: 448px;
+    margin-left: 580px;
+    background-image: url(./img/pngwing.com.png)
+
+}
+
+/* footer pagina noticias */
+.pagina2{
+    background-color: violet;
+    width: 99%;
+    height: 50px;
+    margin-right: 5px;
+}
+ 
